@@ -20,4 +20,8 @@ export class signupDto {
   @IsString()
   @IsNotEmpty()
   public password: string;
+
+  @IsString()
+  @IsNotEmpty()
+  public rToken: string;
 }
